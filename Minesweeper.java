@@ -26,7 +26,7 @@ public class Minesweeper{
       frame.setSize(500,500);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setLayout(new BorderLayout());
-     
+      frame.setResizable(false);
       icon = new ImageIcon("C:\\Users\\Lenovo\\Downloads\\bomb.png");
       frame.setIconImage(icon.getImage());
 
