@@ -1,16 +1,16 @@
-# 💣 Custom Aesthetic Minesweeper
+# Custom Aesthetic Minesweeper
 
 A modern, desktop-based Minesweeper implementation developed completely from scratch using Java Swing and Java AWT. This project emphasizes core Object-Oriented Programming (OOP) concepts, robust state management, real-time background threads, and custom visual design.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This application provides a standard 10x10 Minesweeper matrix containing 10 hidden mines. It moves away from standard operating system UI styles to implement a custom, modern color theme. The project is designed with modularity in mind, cleanly separating game logic, board generation, and real-time clock synchronization.
 
 ---
 
-## ✨ Comprehensive Features
+##  Comprehensive Features
 
 - **Dynamic Grid & Safe Random Generation:** Utilizes a nested 2D array (int[10][10]) where 1 represents a mine and 0 is a safe cell. A while loop guarantees exactly 10 unique mine coordinates are generated with duplicate prevention.
 - **Smart Move Validation:** Implements a state-check at the beginning of actions. If a button's text is already modified, the event listener intercepts and halts execution, preventing players from re-clicking opened cells.
@@ -21,7 +21,7 @@ This application provides a standard 10x10 Minesweeper matrix containing 10 hidd
 
 ---
 
-## 🛠️ Code Architecture & Core Methods
+##  Code Architecture & Core Methods
 
 The codebase is engineered to be highly modular and easy to read:
 
@@ -32,7 +32,7 @@ The codebase is engineered to be highly modular and easy to read:
 
 ---
 
-## 💻 Step-by-Step Installation & Usage Guide
+##  Step-by-Step Installation & Usage Guide
 
 Follow these steps to clone, configure, and execute this project on your local operating system.
 
@@ -61,7 +61,7 @@ java Minesweeper
 
 ---
 
-## 🎨 Aesthetic Specifications
+##  Aesthetic Specifications
 
 - Default Unrevealed Grid: Deep Forest Green -> new Color(0, 100, 0)
 - Successfully Cleared Safe Grid: Light Pastel Mint -> new Color(152, 251, 152)
